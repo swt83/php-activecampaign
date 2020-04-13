@@ -1,0 +1,20 @@
+{
+    "name": "travis/activecampaign",
+    "description": "A PHP package for working w/ the ActiveCampaign API.",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:swt83/php-ex.git"
+        }
+    ],
+    "require": {
+        "travis/ex": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Travis\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
