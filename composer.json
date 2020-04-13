@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "travis/ex": "dev-master"
+        "travis/ex": "1.0.*"
     },
     "autoload": {
         "psr-4": {
